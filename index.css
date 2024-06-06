@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    max-width: 600px;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .description {
+    flex: 1;
+  }
+  .photos {
+    flex: 1;
+    /*height: 100vh;*/
+    height: 75vh;
+    overflow: auto;
+    /*padding-top: 33vh;*/
+    padding-top: 25vh;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 3/2;
+  }
